@@ -11,10 +11,23 @@
 + 支持导出excel错误信息，可批量更正后重新导入
 
 ## 安装
-```php
-composer require tiderjian/qs-grid-import
 
-//找到代码包里的js文件夹
+```shell
+composer require tiderjian/qs-grid-import
+```
+
+### 前端依赖安装/构建
+
+使用antd-admin的项目（qscmf >=14）
+
+```shell
+npm install --save exceljs file-saver
+```
+
+不使用antd-admin（qscmf <14）
+
+```shell
+# 找到代码包里的js文件夹
 npm i //完成前端依赖包的安装
 npm run build //编译js文件，编译出的文件在dist/grid-import-bundle.js 该文件的使用见下面的教程
 ```

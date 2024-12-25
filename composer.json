@@ -19,5 +19,14 @@
     "psr-4": {
       "QsGridImport\\": "src/"
     }
+  },
+  "extra": {
+    "qscmf": {
+      "antd-admin": {
+        "component": {
+          "GridImport": "js/antd-admin/index.jsx"
+        }
+      }
+    }
   }
 }
